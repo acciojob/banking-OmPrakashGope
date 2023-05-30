@@ -16,6 +16,29 @@ public class BankAccount {
         this.AccountNumber = "";
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMinBalance(double minBalance) {
+        this.minBalance = minBalance;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        AccountNumber = accountNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMinBalance() {
+        return minBalance;
+    }
+
+    public String getAccountNumber() {
+        return AccountNumber;
+    }
 
     public double getBalance() {
         return balance;
